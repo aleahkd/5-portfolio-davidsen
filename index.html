@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<title>Aleah Davidsen Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.css">
+<link rel="stylesheet" href="css/style.css">  
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img/real-header.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Aleah Davidsen</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-user"></i> ABOUT</a>
+      <a href="#rowing" class="w3-bar-item w3-button"><i class="fas fa-anchor"></i> ROWING</a>
+      <a href="#art" class="w3-bar-item w3-button"><i class="fas fa-palette"></i> ART</a>
+      <a href="#science" class="w3-bar-item w3-button"><i class="fas fa-flask"></i> LAB SCIENCE</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+      
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"> ABOUT</a>
+  <a href="#rowing" onclick="w3_close()" class="w3-bar-item w3-button">ROWING</a>
+  <a href="#art" onclick="w3_close()" class="w3-bar-item w3-button">ART</a>
+  <a href="#science" onclick="w3_close()" class="w3-bar-item w3-button">LAB SCIENCE</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-left w3-text-black" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small w3-bold title-text-shadow" >Welcome.</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Welcome.</span><br>
+    <span class="text-sizing w3-bold subtitle-text-shadow">Let's start something amazing.</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-hover-opacity-off">Learn more about me</a></p>
+  </div> 
+</header>
+
+<hr class="solid" style="margin-top: 80px">
+    
+<!-- About Section -->
+<div class="w3-container" style="padding:8px 18px" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+ 
+  <div class="w3-row-padding w3-light-grey" style="padding-top: 40px">
+    <div class="w3-col m6 ">
+      <h3>Let me introduce myself</h3>
+      <p style="font-size: 16px;">I am a high school student based in the Boston area. I am fascinated with life sciences, including genetics and neuroscience, but also have a passion for the arts. My interests extend to the sport of rowing and I am inspired by new challenges. </p>
+      <p><a href="#contact" class="w3-button w3-black"> Contact <i class="fa fa-phone-alt"> </i></a></p>
+    </div>
+    <div class="w3-col m6" style="padding-bottom: 30px">
+      <img class="w3-image w3-round-large" src="img/headshot.JPG" alt="headshot" width="480" height="394">
+    </div>
+  </div>
+    </div>
+
+
+<!-- Rowing Section -->
+<div class="w3-container" style="padding:100px 16px" id="rowing">
+  <h3 class="w3-center">ROWING</h3>
+  <p class="w3-center w3-large" style="padding: 0 16px"> My passion for rowing began when I started crew in the spring of 2018. The following fall, I joined Community Rowing Inc, a competitive rowing team based in Boston. I will be rowing as a part of Brown University's crew team starting fall, 2020.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card w3-hover-shadow">
+        <img src="img/northeast-regionals.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Northeast Regional Championship</h3>
+          <p class="w3-opacity">Lowell, Massachusetts</p>
+          <p>Raced in the U18 4x event, advancing to semis and placing 4th in the final. Regatta included top teams in the region.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card w3-hover-shadow">
+        <img src="img/usrowing-nat.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>US Rowing National Championship</h3>
+          <p class="w3-opacity">Bethel, Ohio</p>
+          <p>Raced as part of the USRowing High Performance Team and placed 2nd in the Intermediate 4x and 4th in the Intermediate 2x.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card w3-hover-shadow">
+        <img src="img/canley.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Royal Canadian Henley Regatta</h3>
+          <p class="w3-opacity">St. Catherines, Ontario</p>
+          <p>Raced in the U18 4x and 4+, advancing to semis in the 4x. Competed against top international programs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card w3-hover-shadow">
+        <img src="img/charles.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Head of the Charles Regatta</h3>
+          <p class="w3-opacity">Boston, Massachusetts</p>
+          <p>Raced in the U18 8+, placing 26th. Raced against the top youth rowing teams in the country and around the world.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+<!-- Artwork Section -->
+<div class="w3-container" style="padding:12px 16px" id="art">
+  <h3 class="w3-center">ARTWORK</h3>
+  <p class="w3-center w3-large">Paintings are watercolor and acrilic. Photography taken with iPhone XR and Canon PowerShot SX620 HS Digital Camera. </p>
+    <p class="w3-center w3-large" style="margin-top:-15px"> To see more of my photography, click below.</p>
+    <p class="w3-center"><a href="https://vsco.co/aleahdavidsen/journal/p/1" class="w3-button w3-black"><i class="fa fa-th"> </i> View More</a></p>
+
+  <div class="w3-row-padding" style="margin-top:50px">
+   <div class="row">
+  <div class="column">
+    <img src="img/art-half-flower.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-sunrise.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-window.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-field.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+
+  </div>
+  <div class="column">
+    <img src="img/art-paris.jpeg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-bouquet.jpeg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-italy.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-poppy.jpeg" onclick="onClick(this)" class="w3-hover-opacity">
+
+  </div>
+  <div class="column">
+    <img src="img/art-stairs.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-flower.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-plane.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-sunset.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+
+  </div>
+  <div class="column">
+    <img src="img/art-koi.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-clock.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-acadia.jpeg" onclick="onClick(this)" class="w3-hover-opacity">
+    <img src="img/art-bike.jpg" onclick="onClick(this)" class="w3-hover-opacity">
+  
+  </div>
+ </div>
+</div>  
+    </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-center w3-transparent w3-padding-304">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+    
+    
+<!-- Lab Science Section -->
+<div class="w3-container w3-light-grey w3-padding-64" style="margin-top: 40px" id="science">
+<h3 class="w3-center">LAB SCIENCE</h3>
+  <div class="w3-row-padding">
+    <div class="w3-col m6" style="margin-top: 40px">
+      <h4>From photography to petri dishes.</h4>
+      <p>My fascination with biological science began the first time I saw isolated DNA with my own eyes. I pursued this curiosity in high school and took seven science classes over four years, including AP Biology, AP Chemistry, AP Physics, and a Biotechnology course. To the right and below you can see results of transformation, electrophoresis, and ELISA. I plan to study biochemistry in college and in the future I hope to participate in laboratory research. I am especially interested in the subjects of genetics or neuroscience. To learn more about my lab experience, see my resume below. </p>
+      <p class="w3-left"><a href="Biotech%20Resume%20.pdf" class="w3-button w3-black"><i class="fa fa-th"> </i> See Resume</a></p>
+         
+    </div>
+      
+    <div class="w3-col m6" style="margin-top: 40px">
+        
+     <div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="img/lab-trans.png" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Transformed bacteria
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/lab-electro.png" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    Electrophoresis of DNA
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="img/lab-elisa.jpg" style="width:100%">
+  <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+    ELISA results
+  </div>
+</div>
+
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- Contact Section -->
+<div class="w3-container" style="padding:28px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. I'd love to hear from you.</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Andover, MA</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (425)-879-9689</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: aleahkd@gmail.com</p>
+    <br>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
