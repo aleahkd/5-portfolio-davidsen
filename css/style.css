@@ -50,6 +50,20 @@ hr.solid {
   border-top: 3px solid #bbb;
 }
 
-.hover-color {
-    background-color: #E4D9D3
+.w3-hover-color:hover {
+    color: #000!important;
+    background-color: rgba(215, 222, 190, 0.99)!important;
+}
+
+.hover-shadow:hover {
+    box-shadow: 5px 0 18px #888888;
+    border: 2px solid rgba(215, 222, 190, 0.99) !important;
+}
+
+.main-color {
+    background-color: rgba(215, 222, 190, 0.99)!important;
+}
+
+.main-color2 {
+    color: rgba(189, 203, 142, 0.99)!important;
 }
